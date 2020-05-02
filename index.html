@@ -1,132 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HOLOSCHOOL（ホロスクール）｜「会える。学ぶ。また会える」バーチャルメンタリングサービス</title>
     <link rel="stylesheet" href="./style.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png./assets/favicon" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
-  <body class="contentainer">
-    <div class="fade">
-      <img src="./assets/nextschool_logo.svg" alt="">
-    </div>
-		<header>
-      <a href="">
-        <img class="title-logo" src="./assets/nextschool_logo.svg" alt="">
+  <bod>
+    <header>
+      <a class="header-logo" href="./index.html">
+        <img class="title-logo" src="./assets/holoschool_logo.svg" alt="">
       </a>
       <div class="header-menu">
         <ul>
-          <li><a href="">講師一覧</a></li>
+          <li><a href="#teachers">講師一覧</a></li>
 
-          <li><a href="">料金・プラン</a></li>
+          <li><a href="#feeplan">料金・プラン</a></li>
 
         </ul>
 
-        <a class="header-entry" href="">お申し込み</a>
+        <a class="header-entry" href="./forms.html">お申し込み</a>
       </div>
     </header>
 
-    <div class="top-page">
-      <h1 class="top-page-text">会える。学ぶ。また会える。</h1>
+    <div class="splash">
+      <img class="splash-logo" src="./assets/holoschool_logo.svg" alt="">
     </div>
 
-    <div class="mid-text">
-      <p class="mid-suggest">あああああああああああああああああああああああああああああああああああああああああ</p>
+    <div class="top-page">
+      <div class="bg-color">
+        <h1 class="top-page-text">会える。<br>学ぶ。<br>また会える。</h1>
+      </div>
+    </div>
 
-      <a class="mid-entry" href="">
+    <div class="mid-text container">
+      <p class="mid-suggest">次世代のオンラインメンタリング「HOLOSCHOOL」は
+        専門知識、スキルを持ったバーチャル講師たちとマンツーマンでメンタリングができるサービスです。<br>
+        ３次元やリアルで聞きづらい事でも、ここにいるバーチャル講師たちはあなたの力になります。
+      </p>
+      <a class="mid-entry" href="./forms.html">
         <p class="entry-firstonly">初回限定</p>
 
         <p class="entry-text">無料体験申込み</p>
       </a>
     </div>
 
-    <div class="teachers">
-      <h2>講師紹介</h2>
+    <div class="blue-background container">
+      <h2 id="teachers">講師紹介</h2>
 
-      <div class="teachers-box">
-        <img class="saki-stand" src="./assets/saki_stand.png" alt="">
+      <div class="teachers-block">
+        <a href="https://twitter.com/tristarbucks3" target="_blank"><img class="vtuber-stand" src="./assets/vtuber-shilet.png" alt=""></a>
 
-        <div>
-          <p>あああああああ</p>
+        <div class="teachers-textbox">
+          <h3>シャッテン</h3>
+          <h4>バーチャル英会話</h4>
 
-          <p>ああああああああああああああああああああああ</p>
+          <p class="teachers-maintext">中学生から高校卒業までアメリカ、カナダなどの欧米圏で生活。その後帰国し声優の勉強を行う。<br>ノリの良さと丁寧なしゃべり口調な彼は会話で人を楽しませるパフォーマーでもある。</p>
 
-          <a href="">
-            <img class="twitter-logo" src="./assets/twitter-brands.svg" alt="">
+          <a href="https://twitter.com/tristarbucks3" target="_blank">
+           <img class="twitter-logo" src="./assets/twitter-brands.svg" alt="">
           </a>
         </div>
       </div>
 
-      <div>
-        <div>
-          <p>あああああああ</p>
+      <div class="teachers-block">
+        <a href="https://twitter.com/72525Listiv2" target="_blank"><img class="vtuber-stand teachers-image-front" src="./assets/saki_stand.jpg" alt=""></a>
 
-          <p>ああああああああああああああああああああああ</p>
+        <div class="teachers-textbox">
+          <h3>月詠サキ</h3>
+          <h4>カウンセラー/バーチャル保健講師</h4>
 
-          <a href="">
+          <p class="teachers-maintext">派手やかな見た目であるが落ち着いたしゃべりと人当たりの良さが特徴。<br>普段は医療現場で務めており、カウンセリング、人生相談の他に占いなども行っている。</p>
+
+          <a href="https://twitter.com/72525Listiv2" target="_blank">
             <img class="twitter-logo" src="./assets/twitter-brands.svg" alt="">
           </a>
         </div>
 
-        <img class="saki-stand" src="./assets/saki_stand.png" alt="">
+        <a href="https://twitter.com/72525Listiv2" target="_blank"><img class="vtuber-stand teachers-image-back" src="./assets/saki_stand.jpg" alt=""></a>
       </div>
     </div>
 
-    <div>
+    <div class="mentering-block container">
       <h2>メンタリングまでの流れ</h2>
 
-      <img class="menteringFlow" src="./assets/mentering_flow.png" alt="">
+      <img class="menteringFlow" src="./assets/mentering-flow.png" alt="">
 
-      <a href="">
-        <p>初回限定</p>
+      <a class="mid-entry" href="./forms.html">
+        <p class="entry-firstonly">初回限定</p>
 
-        <p>無料体験申込み</p>
+        <p class="entry-text">無料体験申込み</p>
+      </a>
     </div>
 
-    <div>
-      <h2>料金・プラン</h2>
+    <div class="blue-background container">
+      <h2 id="feeplan">料金・プラン</h2>
 
-      <p>バーチャル英会話の場合 １コマ/30分</p>
+      <p class="feeplan-text">バーチャル英会話の場合<br>１コマ/30分</p>
 
-      <div>
-        <ul>
+      <div class="feeplan">
+        <ul class="feeplan-sheet">
           <li>
-            <p>１コマ</p>
-
-            <p>あああああああ</p>
+            <h4>１コマ</h4>
 
             <h2>3,000円</h2>
 
-            <p>(1コマあたり)</p>
+            <p class="coma-1">(1コマあたり)</p>
+
+            <p class="tax-out">※外税</p>
           </li>
 
           <li>
-            <p>4コマ</p>
+            <h4>4コマ</h4>
 
-            <p>あああああああ</p>
+            <h2 class="price-mid">2,750円</h2>
 
-            <h2>2,750円</h2>
+            <p class="coma-1">(1コマあたり)</p>
 
-            <p>(1コマあたり)</p>
+            <p class="tax-out">※外税</p>
           </li>
 
           <li>
-            <p>8コマ</p>
+            <h4>8コマ</h4>
 
-            <p>あああああああ</p>
+            <h2 class="price-low">2,500円</h2>
 
-            <h2>2,500円</h2>
+            <p class="coma-1">(1コマあたり)</p>
 
-            <p>(1コマあたり)</p>
+            <p class="tax-out">※外税</p>
           </li>
         </ul>
 
-        <p>バーチャルカウンセリングの場合 １コマ/45分</p>
+        <p class="feeplan-text">バーチャルカウンセリングの場合<br>１コマ/45分</p>
 
-        <a href="">
-          <p>初回限定</p>
+        <ul class="feeplan-sheet">
+          <li>
+            <h4>１コマ</h4>
 
-          <p>無料体験申込み</p>
+            <h2>4,000円</h2>
+
+            <p class="coma-1">(1コマあたり)</p>
+
+            <p class="tax-out">※外税</p>
+          </li>
+
+          <li>
+            <h4>4コマ</h4>
+
+            <h2 class="price-mid">3,750円</h2>
+
+            <p class="coma-1">(1コマあたり)</p>
+
+            <p class="tax-out">※外税</p>
+          </li>
+
+          <li>
+            <h4>8コマ</h4>
+
+            <h2 class="price-low">3,500円</h2>
+
+            <p class="coma-1">(1コマあたり)</p>
+
+            <p class="tax-out">※外税</p>
+          </li>
+        </ul>
+
+        <a class="mid-entry" href="./forms.html">
+          <p class="entry-firstonly">初回限定</p>
+
+          <p class="entry-text">無料体験申込み</p>
         </a>
       </div>
     </div>
@@ -134,52 +184,33 @@
     <div>
       <h2>ユーザー体験談</h2>
 
-      <div>
-        <div>
-          <img src="" alt="">
-          <p>あああああああああああああああああ</p>
+      <div class="user-list">
+        <div class="user-list-block">
+          <img class="user-list-image" src="./assets/page-back.jpg" alt="">
+          <p class="user-name">３０代男性 フリーター</p>
+          <p class="user-list-text">リアルな人と話すのが苦手だったけどバーチャルの先生がとても丁寧で優しくて、楽しく学べました。</p>
         </div>
 
-        <p>ああああああああああああああああああああああああああああ</p>
+        <div class="user-list-block">
+          <img class="user-list-image" src="./assets/page-back.jpg" alt="">
+          <p class="user-name">２０代女性 接客業</p>
+          <p class="user-list-text">自分の推しと話しができる上にスキルアップできるなんて、貴重な機会をいただけてとても嬉しかったです！</p>
+        </div>
+
       </div>
 
-      <div>
-        <p>ああああああああああああああああああああああああああああ</p>
+        <a class="mid-entry" href="./forms.html">
+          <p class="entry-firstonly">初回限定</p>
 
-        <div>
-          <img src="" alt="">
-          <p>あああああああああああああああああ</p>
-        </div>
+          <p class="entry-text">無料体験申込み</p>
+        </a>
 
-        <a href="">
-          <p>初回限定</p>
-
-          <p>無料体験申込み</p>
+        <a class="teacher-entry" href="https://forms.gle/ixzfWWJojakeGgxX8" target="_blank">
+          <p>バーチャル講師希望の方</p>
         </a>
       </div>
     </div>
-		<footer>
-      <ul>
-        <li>会社概要</li>
 
-        <li>利用規約</li>
-
-        <li>お問い合わせ</li>
-
-        <li>「特定商取引に関する法律」に基づく表記</li>
-      </ul>
-
-      <div>
-        <a href="">
-          <img class="title-logo" src="./assets/nextschool_logo.svg" alt="">
-        </a>
-
-        <a href="">
-          <img class="twitter-logo footer" src="./assets/twitter-brands.svg" alt="">
-        </a>
-      </div>
-
-      <p>©︎2020 Next School All rights reserved.</p>
-		</footer>
+    <iframe class="footer-frame" src="./footer.html"></iframe>
 	</body>
 </html>
